@@ -278,11 +278,6 @@ Check the Issues tab for:
 - [ ] Offline LLM fallback
 - [ ] Performance optimization for real-time audio
 
-## 📞 Questions or Need Help?
-
-- 💬 Open a Discussion
-- 📧 Email: your.email@university.edu
-- 🐛 Search existing Issues first
 
 ## ✨ Thank You!
 
