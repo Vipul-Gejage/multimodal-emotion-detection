@@ -1,6 +1,6 @@
-# Multimodal Emotion Detection & AI Chatbot 🎭
+# Multimodal Emotion Detection & AI Response Bot 🎭
 
-> **A sophisticated AI-powered chatbot that understands human emotions through text, facial expressions, and voice tone, then responds with genuine empathy using Google Gemini 2.5 Flash.**
+> **A sophisticated AI-powered response bot that understands human emotions through text, facial expressions, and voice tone, then responds with genuine empathy using Google Gemini 2.5 Flash.**
 
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -125,7 +125,7 @@ multimodal-emotion-detection/
 │   ├── Video emotion detection (CNN)
 │   ├── Audio emotion detection (Wav2Vec2)
 │   ├── Fusion engine
-│   ├── Gemini chatbot integration
+│   ├── Gemini integration
 │   └── Tkinter GUI
 │
 ├── 📄 voice.py                    # Standalone audio emotion detection script
@@ -264,7 +264,7 @@ python final.py
    - Emotion analysis displayed (multimodal fusion results)
    - Gemini generates empathetic response
    - Response tone matches detected emotion
-   - Chat history visible in conversation window
+   - Response history visible in conversation window
 
 ### **Keyboard Shortcuts**
 
@@ -427,27 +427,12 @@ This project demonstrates:
 
 ---
 
-## ⚠️ Limitations & Future Work
+## 🔮 Future Improvements
 
-### Current Limitations
-
-- Faces must be clearly visible (lighting, angle dependent)
-- Emotions are discrete categories (no intensity levels)
-- Requires internet for Gemini API
-- Audio quality affects accuracy
-- Single-person detection at a time
-- May be biased toward training data demographics
-
-### Future Enhancements
-
-- [ ] Real-time emotion intensity (confidence scores)
-- [ ] Multi-person simultaneous detection
-- [ ] Emotion trajectory/history tracking
-- [ ] Custom LLM fine-tuning for specific use cases
-- [ ] Offline inference (local LLM fallback)
-- [ ] Mobile app version
-- [ ] Database for emotion analytics
-- [ ] Emotion-based music/content recommendation
+* Multi-person detection
+* Offline LLM support
+* Emotion intensity detection
+* Mobile application
 
 ---
 
@@ -484,16 +469,16 @@ See `requirements.txt` for complete list.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see LICENSE file for details.
+MIT License
 
 ---
 
-## 👨‍💼 Author & Contact
+## 👨‍💻 Authors
 
-**Your Name**  
-Final Year Major Project - [Your University]  
-Email: your.email@university.edu  
-GitHub: [@yourusername](https://github.com/yourusername)
+**VIPUL GEJAGE**
+**RENUKA DESHPANDE**
+**SNEHAL ELKIWAR**
+**GAYATRI DERE**
 
 ---
 
@@ -507,49 +492,4 @@ GitHub: [@yourusername](https://github.com/yourusername)
 
 ---
 
-## 📞 Support & Troubleshooting
-
-### Common Issues
-
-**Q: "Camera Error - Could not open camera"**  
-A: Check webcam permissions, try different camera app first, restart application
-
-**Q: "Gemini API Error"**  
-A: Verify API key, check internet connection, ensure quota not exceeded
-
-**Q: "Wav2Vec2 model not found"**  
-A: Download model directory, ensure path is correct in code
-
-**Q: "Poor video accuracy"**  
-A: Improve lighting, face should be clearly visible, adjust face detection sensitivity
-
-**Q: "Slow performance"**  
-A: Check CPU/GPU usage, close background apps, update drivers
-
----
-
-## 🚀 Quick Start (TL;DR)
-
-```bash
-# 1. Setup
-git clone <repo-url>
-cd multimodal-emotion-detection
-python -m venv venv && venv\Scripts\activate
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-
-# 2. Configure
-# Add GEMINI_API_KEY to environment or code
-
-# 3. Run
-python final.py
-
-# 4. Use
-# - Click "Start Video" and/or "Start Mic"
-# - Type message and press Enter
-# - See emotion analysis and AI response
-```
-
----
-
-**Made with ❤️ for your final year major project 🎓**
+**Final Year Major Project 🎓**
