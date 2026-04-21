@@ -475,10 +475,13 @@ MIT License
 
 ## 👨‍💻 Authors
 
-**VIPUL GEJAGE**
-**RENUKA DESHPANDE**
-**SNEHAL ELKIWAR**
-**GAYATRI DERE**
+**Vipul Gejage**
+
+**Renuka Deshpande**
+
+**Snehal Elkiwar**
+
+**Gayatri Dere**
 
 ---
 
